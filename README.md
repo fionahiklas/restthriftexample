@@ -6,14 +6,13 @@ First code written in go
 
 ### Structure
 
-I think I've probably made things more complicated than then need to be - I have a git repo for the GOPATH structure and then this repo is 
-mounted under that.  This is waaaaayyyy more complex than it needs to be.
+I have my go base directory here ~/wd/fionahiklas/gobase this is where stuff should be getting loaded to work on.
 
 One interesting thing is that I have another Go base directory for third party utilities, ~/wd/3rdparty/gobase and I've added that into 
 the GOPATH like this
 
 ```
-export GOPATH=~/wd/fionahiklas/simple_rest_and_thrift_gobase:~/wd/3rdparty/gobase
+export GOPATH=~/wd/fionahiklas/gobase:~/wd/3rdparty/gobase
 export PATH=$PATH:~/wd/3rdparty/gobase/bin
 ``` 
 
